@@ -180,7 +180,7 @@ public class Order {
 
 ---
 
-## P33_MethodGroupConversions — Assign methods to delegates without `new`
+## P36_MethodGroupConversions — Assign methods to delegates without `new`
 
 **What it shows:**  
 - Writing `Action a = SomeMethod;` instead of `new Action(SomeMethod);`.
@@ -200,7 +200,7 @@ class Demo {
 
 ---
 
-## P34_StaticClasses — Pure static utility types
+## P37_StaticClasses — Pure static utility types
 
 **What it shows:**  
 - Declaring a `static class` that can’t be instantiated or inherited.
@@ -214,7 +214,7 @@ public static class MathUtil {
 
 ---
 
-## P35_DelegateInference — Type inference for anonymous methods
+## P38_DelegateInference — Type inference for anonymous methods
 
 **What it shows:**  
 - Pass an anonymous method where a delegate is expected; compiler infers type.
