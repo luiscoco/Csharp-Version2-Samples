@@ -1,4 +1,4 @@
-# C# 2.0 Samples – Detailed Explanation
+# C# 2.0 Samples - Detailed Explanation
 
 This repo demonstrates the major features introduced in **C# 2.0 (2005)**, with runnable projects showing each in action.
 
@@ -14,7 +14,7 @@ The solution forces **C# language version 2** so you see the authentic syntax/be
 
 ---
 
-## P26_Generics — Generic methods & collections
+## P29_Generics - Generic methods & collections
 
 **What it shows:**  
 - Defining a **generic method** (e.g., `Swap<T>(ref T a, ref T b)`)  
@@ -44,7 +44,7 @@ static class Demo {
 
 ---
 
-## P27_PartialTypes — Partial classes
+## P30_PartialTypes - Partial classes
 
 **What it shows:**  
 - Splitting one class across multiple files with `partial`.
@@ -66,7 +66,7 @@ public partial class Customer {
 
 ---
 
-## P28_AnonymousMethods — Inline delegates (pre-lambda)
+## P31_AnonymousMethods - Inline delegates (pre-lambda)
 
 **What it shows:**  
 - Passing code to a method via `delegate(...) { ... }` (before lambdas existed)
@@ -88,7 +88,7 @@ class Demo {
 
 ---
 
-## P29_NullableValueTypes — `T?`, `HasValue`, `Value`, `??`
+## P32_NullableValueTypes - `T?`, `HasValue`, `Value`, `??`
 
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
 
@@ -114,7 +114,7 @@ class Demo {
 
 ---
 
-## P30_Iterators — `yield return`
+## P33_Iterators - `yield return`
 
 **What it shows:**  
 - Writing an **iterator method** with `yield return` and `yield break`.
@@ -142,7 +142,7 @@ class Demo {
 
 ---
 
-## P31_CovarianceContravariance — Delegate variance basics
+## P34_CovarianceContravariance - Delegate variance basics
 
 **What it shows:**  
 - Variance with **delegates** (C# 2 supports covariance/contravariance for delegates).
@@ -165,7 +165,7 @@ static void Main() {
 
 ---
 
-## P32_GetterSetterAccessibility — Different accessor levels
+## P35_GetterSetterAccessibility - Different accessor levels
 
 **What it shows:**  
 - Properties where `get` and `set` have **different access modifiers**.
